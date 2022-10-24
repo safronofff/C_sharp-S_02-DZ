@@ -13,5 +13,13 @@ bool Vihodnoy(int x)
 	else return false;
 }
 
-bool y1 = Vihodnoy(num);
-Console.WriteLine(y1);
+bool result = Vihodnoy(num);
+if (result)
+{
+	Console.WriteLine("Да.Данный день является выходным");
+}
+
+else
+{
+	Console.WriteLine("Увы.Данный день выходным Не является, продолжайте пахать!!!");
+}
